@@ -234,9 +234,4 @@
 
 ---
 
-### Eslatmalar
-- **Autentifikatsiya**: `token_required` dekoratori ishlatilgan marshrutlar uchun HTTP sarlavhasida `Authorization: Bearer <token>` yuborilishi kerak.
-- **Rol talablari**: `role_required` dekoratori bilan cheklangan marshrutlar faqat ko‘rsatilgan rollarga ega foydalanuvchilar uchun ishlaydi (`admin`, `coach`, `student`).
-- **Ma’lumot formati**: Ko‘p hollarda JSON (`request.json`) yoki forma ma’lumotlari (`request.form`) qabul qilinadi, rasmlar esa `multipart/form-data` orqali yuboriladi.
 
-Agar har bir marshrut uchun namunaviy so‘rovlar (masalan, `curl` bilan) yozishni xohlasangiz, menga xabar bering, men ularni alohida yozib beraman!
